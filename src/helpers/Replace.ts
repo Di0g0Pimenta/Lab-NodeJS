@@ -1,0 +1,1 @@
+export type Replace<t, R> = Omit<t, keyof R > & R;
